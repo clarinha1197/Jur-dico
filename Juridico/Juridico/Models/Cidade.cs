@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Juridico.Models
 {
-    class Cidade
+    public class Cidade
     {
-        private int codigo { get; set; }
-        private string descricao { get; set; }
-        private Estado estado { get; set; }
+        public int codigo { get; set; }
+        public string descricao { get; set; }
+        public Estado estado { get; set; }
 
         public List<Cidade> getTodasCidades()
         {

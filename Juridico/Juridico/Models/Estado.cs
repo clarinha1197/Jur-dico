@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Juridico.Models
 {
-    class Estado
+    public class Estado
     {
-        private int codigo { get; set; }
-        private string descricao { get; set; }
-        private string sigla { get; set; }
+        public int codigo { get; set; }
+        public string descricao { get; set; }
+        public string sigla { get; set; }
 
         public List<Estado> getTodosEstado()
         {
